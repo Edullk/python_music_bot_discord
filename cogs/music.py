@@ -116,7 +116,7 @@ class music(commands.Cog):
                 embedvc = discord.Embed(
                     colour=32768,  #green
                     description=
-                    f"Você adicionou a música **{song['title']}** à fila!\n\n[Crie seu próprio Bot de Música](https://youtu.be/YGx0xNHzjgE)"
+                    f"Você adicionou a música **{song['title']}** à fila!\n\n[Repositório](https://github.com/Edullk/music_bot)"
                 )
                 await ctx.send(embed=embedvc)
                 self.music_queue.append([song, voice_channel])
